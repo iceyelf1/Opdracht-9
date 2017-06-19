@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="Opdracht_9.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="PaginaLayout.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="Kop"> 
+        <h2>Films en nog eens films</h2>
+        </div>
+    <div id="Inhoud">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="Menu">
+        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1">
+        </asp:Menu>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+        </div>
+    </form>
+</body>
+</html>

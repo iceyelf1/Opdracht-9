@@ -1,0 +1,43 @@
+﻿body {
+}
+
+#Kop{
+    background: #FF6A00;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 30vh;
+}
+
+#Menu{
+    background: #FFD800;
+    position: absolute;
+    top: 30vh;
+    left: 0px;
+    width: 15vw;
+    height: 70vh;
+}
+
+#Inhoud{
+    background: #FFE97F;
+    position: absolute;
+    top: 30vh;
+    left: 15vw;
+    width: 85vw;
+    height: 70vh;
+}
+
+h2 {
+    margin-left: 25vw;
+    margin-top: 5vw;
+    font-size: 5vh;
+    font-size: 5vw;
+}
+
+#Menu1{
+    margin-left: 0vw;
+    margin-top: 0vw;
+    font-size: 2vw;
+    font-size: 2vh;
+}
